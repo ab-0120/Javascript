@@ -1,0 +1,21 @@
+script tag can be put anywhere in html file it'll work- inside body, outside body, inside head, outside html, everywhere..... But its good practise to place it at last of body
+
+Single and double quotes are both allowed in JS.
+
+Semi-colon is not necessary....Its upto you to insert it  or not.
+
+console.log is used to print in console of browser
+
+Rules for naming variables:------------------------------------------
+   A variable can start with a alphabet, underscore, dollar ($).
+   A variable name can contain alphabet, underscore, numbers, dollar sign.
+   A variable name cannot be a reserved keyword.
+   name is a keyword but sometimes it doesn't create any error while using it as a variable name... Avoid it generally.
+   Do not start a variable name with uppercase alphabets... Because its used in OOPs, so to avoid confusion start with lowercase
+   Variable name in uppercase is for constants that do not change, so avoid this also. E.g.... NULL, PI
+   Make sure that variable names are descriptive...
+   Its good practise to use came case in JS for namig variables.
+   
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
