@@ -1,0 +1,28 @@
+Rules for variable name
+
+1. Can start with _ $ or alphahbets
+
+let _js = 'anshita';
+let $js = 'ab';
+let j = 'anshita';
+
+console.log(_js);
+console.log($js);
+console.log(j);
+
+2. No digit at start
+
+let 3js = 'ab'
+console.log(3js);   //error- no digit at start
+
+
+3. Only contains numbers, letters, _ ,$
+
+let &js='a';
+console.log(&js);  //error
+
+4. Do not start with uppercase because its for OOPs concept
+
+5. whole name is in uppercase is for constant
+
+6. Do not use reserved words for naming.
