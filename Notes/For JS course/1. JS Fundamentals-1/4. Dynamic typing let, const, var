@@ -1,0 +1,29 @@
+DYNAMIC TYPING IN JS - Js allows changing one type of variable to another
+
+let an = 23;
+console.log(typeof an);
+
+an = 'anshita';
+console.log(typeof an);
+
+
+DIFFERENT WAYS OF DECLARING A VARIABLE
+
+1. let keyword-- can change its value || mutable
+
+let aw = 123;
+
+2. const keyword- used to define immutable value that will never change|| cannot declare a variable without assigning any value
+
+const as = 12;
+as++;       // error assignment to const variable
+
+const amx; //error
+
+console.log(as);
+
+3. var keyword -- same as let but used in older versions , more of functional oriented
+
+var abzzzz = 23;
+
+It is prefreable to use let keyword
