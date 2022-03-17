@@ -1,0 +1,9 @@
+// ASSIGNMENT FOR VARIABLE LECTURE-----------------------------------------------------
+
+let country = "INDIA";
+let continent = "Asia";
+let population = 3500000000000;
+
+console.log(country);
+console.log(continent);
+console.log(population);
