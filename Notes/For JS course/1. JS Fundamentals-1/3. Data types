@@ -1,0 +1,70 @@
+ DATA TYPES IN JS
+
+Only two types OBJECT AND PRIMITIVE---------------------
+
+
+1. Primitive ----- 7 primitives
+
+a) Numbers- JS has only numbers. It includes decimal as well as integers
+
+let a = 23;
+let b = 0.888888888;
+let c = 21.12;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+b) strings - Can use either single or double quotes with strings
+
+let fname = "Anshita";
+let lname = 'Bisht';
+
+console.log(fname, lname);
+
+c) boolean - logical one that can either be true or false
+
+let bool = false;
+let yes = true;
+
+console.log(yes, bool);
+
+d) Undefined - a variable that is declared but not defined with any value
+
+let children;
+
+console.log(children); // undefined
+
+e) NULL - means empty value
+
+let abc = null;
+console.log(abc);      //null
+
+f) Symbol(ES2015)- value that is unique and cannot be changed
+
+g) BigInt(ES2020)- can hold bigger interger values than numbers
+
+
+//////////***************************************************** */
+
+JS is a dynamic language that is it automatically detect the type of values.
+In JS values has a type and not variables................
+
+
+
+
+
+//////////////////////// COMMENTS
+Single -line - //
+MUlti- line - /*    */
+
+
+
+typeof --- to determine the data type of a value or variable
+
+console.log(typeof abc)                     //object-- bug because it should be null
+console.log(typeof bool)                    //boolean
+console.log(typeof fname)                   //string
+console.log(typeof a)                       //number
+console.log(typeof children)                //undefined
+
