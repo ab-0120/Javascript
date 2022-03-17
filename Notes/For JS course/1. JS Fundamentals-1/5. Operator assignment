@@ -1,0 +1,30 @@
+//      BASIC OPERATORS
+//  ASSIGNMENT
+
+let population_India = 300000000;
+
+console.log("No of prople n each half is ", population_India);
+
+
+//
+population_India++;
+console.log("New population ", population_India);
+
+//
+let population_Finland = 6000000;
+
+console.log(population_India > population_Finland);
+
+//
+let avg_population = 330000000;
+
+console.log(population_India > avg_population);
+
+//
+
+let description = 'Portugal is in Europe, and its 11 million people speak portuguese';
+
+console.log(description);
+
+
+
