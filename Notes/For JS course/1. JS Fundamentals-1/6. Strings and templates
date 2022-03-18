@@ -1,0 +1,25 @@
+
+// STRING 
+
+let fname = 'Anshita';
+let lname = 'Bisht';
+
+// conationation of string
+
+let fullnme = fname + " " + lname;
+
+console.log(fullnme);
+
+
+// TEMPLATE- feature of ES6; made the use of strings much easier enclosed in ``
+
+const year = 2001;
+const current = 2022;
+
+const fullname = `My name is ${fname} ${lname}.
+I am ${year - current} years old.`       // will print in a new line just by ENTER key no need of inserting /n
+
+console.log(fullname);
+
+// can write strings in this format.
+const abc = `abc`;
