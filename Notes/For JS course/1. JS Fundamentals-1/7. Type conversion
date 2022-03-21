@@ -1,0 +1,12 @@
+Type conversion
+
+
+It is manually converting one typr to another.
+
+let year= '1991';
+console.log( year+18)    // 199118
+
+Number() - function to convert string to int. Do not change the original string to just just retuurn a integer.
+
+console.log(Number(year), year);    //1991 '1991'
+
