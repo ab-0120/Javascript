@@ -1,5 +1,8 @@
 Type conversion
 
+/ can only convert to number, to string or to boolean
+// but cannot do to null or undefined
+
 
 It is manually converting one typr to another.
 
@@ -10,3 +13,41 @@ Number() - function to convert string to int. Do not change the original string 
 
 console.log(Number(year), year);    //1991 '1991'
 
+// if we try to convert a pure string to number it will give NaN - not a number- which comes under number
+
+year = 'Jonas';
+console.log(Number(year));  // NaN
+console.log(typeof NaN);  // number
+
+
+String()- convert  a number to string
+
+console.log(String(233));
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// TYPE COERSION - automatically converting one type to another 
+
+
+// Imp- + operator convert numbers to string
+
+console.log('I am ' + 20 + ' years old.')
+
+// all other operators convert string to number
+
+console.log('23' - '10' - 3) // 10
+
+console.log('23' * 2) // 46
+
+
+// examples
+
+let n = '1' + 1;
+n = n - 1;
+
+console.log(n) // 10
+
+console.log(2 + 3 + 4 + '5') // "95"
+
+console.log('10' - '4' - '3' - 2 + '5') //"15"
+
+console.log('23' / '2' * 2) // 23
