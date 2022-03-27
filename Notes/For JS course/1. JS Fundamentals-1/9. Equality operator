@@ -1,0 +1,13 @@
+1. Strict equality operator- === - values on both the sides dhould be equal and doesnot perform type coercion
+
+console.log('18' === 18)   // false
+
+2. Loose equality operator- == - performs type coercion
+
+console.log(18 == '18')    // true
+
+// ex--
+const pr = Number(prompt("Enter a number"));  // prompt always return a string
+
+if (pr == 7)
+    console.log("Your lucky number");
