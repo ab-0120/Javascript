@@ -1,0 +1,32 @@
+// TRUTHY AND FALSY VALUES 
+
+Only 5 falsy values- 0, ' ', null, undefined, NaN
+
+
+
+console.log(Boolean(0));  //false
+
+console.log(Boolean(null));  //false
+
+console.log(Boolean('a'));  // true
+
+console.log(Boolean(undefined));  // false
+
+
+// example - automatic type coercion
+
+let aa = 0;
+
+if (aa)
+    console.log("TRUE");
+else
+    console.log("FALSE");  // false
+
+// can use to check if a value is undefined but gives the same answer for =0;
+
+let aaa; // even if aaa=0 it will give false-- This is a bug
+
+if (aaa)
+    console.log("TRUE");
+else
+    console.log("FALSE");   // false
